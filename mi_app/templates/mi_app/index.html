@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Plantilla</title>
+</head>
+<body>
+    hola, probando variables en plantilla
+    
+    <form action="" method="get">
+       <label for="nombre"> Cual es tu nombre?</label>
+       <input type="text" name="nombre">
+       <button type="submit"> enviar </button> 
+       <label for="apellido"> cual es tu apellido?</label>
+       <input type="text" name="apellido">
+       <button type="submit"> enviar </button>
+       <p style="color:purple"> mi nombre es {{nombre}}</p>
+       <p style="color:black"> mi apellido es {{apellido}}</p>
+ 
+     </form>
+     <h2> Hola como estas {{nombre}}?</h2>
+    
+</body>
+</html>
